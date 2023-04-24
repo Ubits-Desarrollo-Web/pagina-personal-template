@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+img {
+    border-style: none;
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.card {
+    position: relative;
+    margin-bottom: 15px;
+    background-color: #fff;
+    color: #464646;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.iconos {
+    color: #970747;
+    margin-right: 10px;
+    font-size: 1.2em;
+
+}
+
+.grande {
+    font-size: 1.1em;
+}
+
+.nombre {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0px 15px;
+    color: #3f4244;
+}
+
+.info-chico {
+    padding: 10px 10px 40px 20px;
+}
+
+.info-grande {
+    padding: 10px 10px 60px 20px;
+}
+
+.un-tercio {
+    width: 33.33%;
+    padding: 0 8px;
+    float: left;
+}
+
+.dos-tercios {
+    width: 66.66%;
+    padding: 0 8px;
+    float: left;
+}
+
+@media screen and (max-width: 700px) {
+        .dos-tercios, .un-tercio {
+            float: none;
+            width: 100%;
+        }
+
+}
